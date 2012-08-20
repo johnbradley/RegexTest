@@ -13,6 +13,8 @@ size_t regerror(int errcode, const regex_t *preg, char *errbuf,
 void regfree(regex_t *preg);
 */
 
+//time test how long it takes
+//for regex vs explicit code
 int main(void) {
     return 0;
 }
